@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunkara Purna Saivivek | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; }
+    header, section, footer { padding: 2rem; max-width: 1000px; margin: auto; }
+    header { background-color: #1e2a38; color: #fff; text-align: center; padding: 3rem 2rem; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin-top: 1rem; }
+    .cta { margin-top: 1.5rem; display: inline-block; padding: 0.8rem 1.5rem; background: #3b82f6; color: #fff; text-decoration: none; border-radius: 5px; }
+    h2 { color: #1e2a38; border-bottom: 2px solid #3b82f6; display: inline-block; margin-bottom: 1rem; }
+    .skills, .experience, .projects { display: grid; gap: 1rem; }
+    .card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .contact-info { margin-top: 1rem; }
+    footer { text-align: center; font-size: 0.9rem; color: #777; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SUNKARA PURNA SAIVIVEK</h1>
+    <p>Web Development Intern | Responsive Design | Full Stack Enthusiast</p>
+    <a href="#projects" class="cta">Explore Portfolio</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web development intern with a strong foundation in responsive design and user-centric development. Leveraging skills in HTML, CSS, JavaScript, and SQL, I excel in collaborating within development teams to enhance user experience. My internships have equipped me with practical knowledge and certification in full stack development and backend integration, preparing me for future challenges in tech.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="card">
+        <h3>Web Development Intern – MotionCut</h3>
+        <p><strong>Feb 2025 – Apr 2025</strong></p>
+        <p>Contributed to web development projects, mentored by senior developers, and earned an AICTE-verified certificate.</p>
+      </div>
+      <div class="card">
+        <h3>Web Development Intern – ExcelR</h3>
+        <p><strong>Jun 2024 – Aug 2024</strong></p>
+        <p>Worked on responsive design, collaborated with teams, optimized for various platforms, and received a NASSCOM-ExcelR certification.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML, CSS, JavaScript, Bootstrap</div>
+      <div class="card">SQL, Python, Java</div>
+      <div class="card">MS Office, Excel</div>
+      <div class="card">IoT, Front-End Development</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Daily Mood Tracker</h3>
+        <p>Designed a visually interactive webpage for users to track daily mood using icons and CSS styling. Focused on responsive layout and UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me through the following:</p>
+    <div class="contact-info">
+      <p>📧 Email: <a href="mailto:poornavivek45@gmail.com">poornavivek45@gmail.com</a></p>
+      <p>📞 Phone: +91 9182287945</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SUNKARA PURNA SAIVIVEK. All rights reserved.</p>
+  </footer>
+</body>
+</html>
